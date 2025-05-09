@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    background: linear-gradient(to right, #ff69b4, #d04894);
+    color: white;
+    padding:60px 20px;
+    text-align: center;
+}
+header h1 {
+    font-size:2.8rem;
+    margin-bottom:10px;
+    animation:bounce 2s;
+}
+header p{
+    margin-top:10px;
+}
+.btn {
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 30px;
+    background:white;
+    color:#d04894;
+    font-weight:bold;
+    border-radius:25px;
+    text-decoration:none;
+}
+@keyframes bounce{
+    40% {transform: translateY(-30px);
+    }
+    60% {transform: translateY(-10px);
+    }
+}
+.btn:hover {
+    background-color:#f8c8dc;
+}
+section {
+    padding: 60px 20px;
+    margin: auto;
+    text-align: center;
+    color:#333;
+}
+section p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+section h2 {
+    font-size:2rem;
+    margin-bottom:20px;
+}
+.search-section {
+    background-color:white;
+}
+.search-form {
+    background-color:white;
+}
+input {
+    border-radius:5px;
+    padding:10px;
+    border-style:solid;
+    margin-right:10px;
+}
+select {
+    border-radius:5px;
+    padding:10px;
+    margin-right:10px;
+}
+button {
+    border-radius:5px;
+    background-color:#ff69b4;
+    color:white;
+    border:none;
+    padding:12px;
+}
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    border-radius:10px;
+    max-width:900px;
+}
+.feature-box {
+    background:#fff0f5;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+.features i {
+    font-size: 2.5rem;
+    color:#ff69b4;
+    margin-bottom: 15px;
+}
+.features h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    max-width:700px;
+}
+.cta {
+    background-color:   #f8c8dc;
+}
+.cta h2 {
+    font-size:2rem;
+}
+footer {
+    background-color: #ff69b4;
+    color: white;
+    text-align:center;
+    padding:15px;
+}
